@@ -4,3 +4,73 @@
     box-sizing: border-box;
 }
 
+
+
+ul {
+    list-style: none;
+}
+
+.logo {
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.bgHero {
+    background-color: darkblue;
+    color: white;
+}
+
+.bigHero {
+    max-width: 960px;
+    margin: 0 auto;
+    padding-bottom: 80px;
+}
+
+.topHero {
+    display: flex;
+    padding-top: 20px;
+    margin-bottom: 100px;
+}
+
+.navigation {
+    display: flex;
+    margin-left: auto;
+    gap: 20px;
+}
+
+.image {
+    height: 150px;
+    width: 450px;
+    border: 2px solid white;
+}
+
+.hero {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+h1   {
+    font-size: 35px;
+}
+
+.heroLeft {
+    display: flex;
+    flex-direction: column;
+    gap: 3px
+}
+
+.heroLeft p {
+    color: lightgray;
+}
+
+.heroLeft button {
+    padding: 5px 25px;
+    background-color: lightgreen;
+    border: none;
+    border-radius: 5px;
+
+}
+
+
