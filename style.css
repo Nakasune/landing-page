@@ -4,7 +4,9 @@
     box-sizing: border-box;
 }
 
-
+body {
+    font-family: Inter, sans-serif;
+}
 
 ul {
     list-style: none;
@@ -18,12 +20,12 @@ ul {
 .bgHero {
     background-color: darkblue;
     color: white;
+    padding-bottom: 80px;
 }
 
-.bigHero {
-    max-width: 960px;
+.bigHero, .quote {
+    max-width: 800px;
     margin: 0 auto;
-    padding-bottom: 80px;
 }
 
 .topHero {
@@ -39,8 +41,8 @@ ul {
 }
 
 .image {
-    height: 150px;
-    width: 450px;
+    height: 200px;
+    width: 600px;
     border: 2px solid white;
 }
 
@@ -48,7 +50,7 @@ ul {
     display: flex;
     justify-content: space-between;
     align-items: center;
-
+    gap: 100px;
 }
 
 h1   {
@@ -58,11 +60,13 @@ h1   {
 .heroLeft {
     display: flex;
     flex-direction: column;
-    gap: 3px
+    gap: 10px;
+    width: 600px;
 }
 
 .heroLeft p {
     color: lightgray;
+    margin-bottom: 5px;
 }
 
 .heroLeft button {
@@ -70,7 +74,89 @@ h1   {
     background-color: lightgreen;
     border: none;
     border-radius: 5px;
+}
 
+.info {
+    margin-top: 50px;
+    text-align: center;
+}
+
+.fourInfos {
+    display: flex;
+    justify-content: center;
+    /*align-items: center;*/
+    gap: 10px;
+    flex-wrap: wrap;
+}
+
+.info h2 {
+    margin-bottom: 50px;
+}
+
+.info1, .info2, .info3, .info4 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 135px;
+}
+
+.imgInfo1, .imgInfo2, .imgInfo3, .imgInfo4 {
+    border: 2px solid blue;
+    height: 100px;
+    width: 100px;
+}
+
+/*.bgQuote {*/
+/*    margin-top: 100px;*/
+/*    background-color: lightgray;*/
+/*    padding: 100px;*/
+/*    */
+/*}*/
+
+.bgQuote {
+    /*border: 2px solid red;*/
+    background-color: lightgray;
+    margin-top: 90px;
+}
+
+.quote {
+    padding: 50px 120px;
+}
+
+.quote p {
+    font-size: 25px;
 }
 
 
+.who {
+    /*border: 2px solid red;*/
+    text-align: right;
+}
+
+.action {
+    padding: 30px 70px;
+    border-radius: 20px;
+    color: white;
+    background-color: blue;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 700px;
+    margin: 80px auto;
+
+}
+
+.signup button {
+    padding: 5px 30px;
+    border: 2px solid white;
+    background-color: blue;
+    color: white;
+    border-radius: 10px;
+}
+
+footer {
+    margin-top: 90px;
+    text-align: center;
+    background-color: lightgray;
+    padding: 30px 0;
+}
